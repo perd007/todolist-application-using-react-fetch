@@ -7,10 +7,10 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
+		<div className="container card text-bg-light " >
+			<h1 className="text-center  card-body fw-bolder">My Todo List React</h1>
 			<List/>
-			<p>
+			<p className="text-center" >
 				Made by{" "}
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!

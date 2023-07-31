@@ -73,7 +73,7 @@ const updateApi = async  (array)=>{
                     );
                 })
                 }
-        <li className="list-group-item d-flex justify-content-between" >{todolist.length} Items</li>
+        <li className="list-group-item d-flex justify-content-between text-bg-info fw-bold" >{todolist.length} Items</li>
             </ul>
 
         </>
